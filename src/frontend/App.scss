@@ -1,0 +1,27 @@
+div#root {
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  inset: 0;
+
+  padding: 1em;
+
+  > h1 {
+    text-align: center;
+  }
+
+  > div.app {
+    flex: 1;
+  }
+}
+
+div.loading-overlay,
+div.no-data-overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+  inset: 0;
+}
